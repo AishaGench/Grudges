@@ -1,0 +1,69 @@
+html,
+*{
+    box-sizing:border-box;
+}
+body,
+input{
+    font:caption;
+}
+input{
+    padding: 0.5em;
+    border:1px solid #074205;
+    background-color: #f1d3da;
+}
+input:not(:first-of-type){
+    border-left: none;
+}
+button,
+.button,
+input[type='submit']{
+    background-color: rgb(198, 155, 238);
+    border:1px solid #5e0343;
+    color:teal;
+    padding: 0.5em;
+    transition:all 0.2s ;
+}
+button:hover,
+.button:hover,
+input[type='submit']:hover {
+  background-color: #11f5f5;
+}
+button:active,
+.button:active,
+input[type='submit']:active {
+  background-color: #f4466e;
+}
+button.full-width,
+.button.full-width,
+input[type='submit'].full-width {
+  width: 100%;
+  margin: 1em 0;
+}
+.App {
+    margin: auto;
+    max-width: 400px;
+}
+.Grudges-searchTerm {
+    background-color:blueviolet;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+.Grudge {
+    border: 1px solid #f4466e;
+    padding: 1em;
+    margin: 1em 0;
+  }
+  .Grudge h3 {
+    margin-top: 0;
+  }
+  
+  .Grudge-forgiven {
+    color: #f4466e;
+  }
+  .NewGrudge {
+    display: flex;
+  }
+  
+  .NewGrudge-input {
+    width: 100%;
+  }
